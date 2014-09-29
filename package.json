@@ -10,6 +10,10 @@
 		"stats",
 		"graphite"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/timborodin/pstats.git"
+	},
 	"main": "index.js",
 	"devDependencies": {
 		"q": "1.0.x"
