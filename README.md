@@ -12,7 +12,8 @@ longAsyncOperation()
     .stats('operations.xxx');
 ```
 
-This will create send following stats to graphite:
+This will send following stats to graphite:
+```
 Counters:
     project.operations.xxx.attempted +1
     project.operations.xxx.succeeded +1
@@ -20,5 +21,6 @@ Counters:
     project.operations.xxx.failed +1
 Timing:
     project.operations.xxx.duration dt
-    
+```
+
 Start time is the moment when your promise chain is being constructed (stats method called). 
