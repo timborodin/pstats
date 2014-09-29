@@ -1,4 +1,4 @@
-Including this module will apply a patch to Q library that will extend promises with *stats* method. 
+This module applies patches Q library to extend promises with *stats* method. 
 
 
 ```javascript
@@ -20,7 +20,7 @@ Counters:
     or
     project.operations.xxx.failed +1
 Timing:
-    project.operations.xxx.duration dt
+    project.operations.xxx dt
 ```
 
 Start time is the moment when your promise chain is being constructed (stats method called). 

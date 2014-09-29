@@ -22,7 +22,7 @@ function tryToInstrumentQ (stats) {
 					stats.increment(name + '.failed');
 				})
 				.finally( function () {
-					stats.timing(name + '.duration', Date.now() - start);
+					stats.timing(name, Date.now() - start);
 				});
 
 			return this;
