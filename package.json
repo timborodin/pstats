@@ -1,23 +1,23 @@
 {
-	"name": "pstats",
-	"version": "0.1.0",
-	"description": "Monkey patch for Q to send your promises' stats to graphite.",
-	"author": "Tim Borodin <tim.borodin@gmail.com>",
-	"keywords": [
-		"q",
-		"promise",
-		"promises",
-		"stats",
-		"graphite"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/timborodin/pstats.git"
-	},
-	"bugs": "https://github.com/timborodin/pstats/issues",
-	"main": "index.js",
-	"devDependencies": {
-		"q": "1.0.x"
-	},
-	"license": "MIT"
+  "name": "pstats",
+  "version": "0.1.1",
+  "description": "Monkey patch for Q to send your promises' stats to graphite.",
+  "author": "Tim Borodin <tim.borodin@gmail.com>",
+  "keywords": [
+    "q",
+    "promise",
+    "promises",
+    "stats",
+    "graphite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timborodin/pstats.git"
+  },
+  "bugs": "https://github.com/timborodin/pstats/issues",
+  "main": "index.js",
+  "devDependencies": {
+    "q": "1.0.x"
+  },
+  "license": "MIT"
 }
